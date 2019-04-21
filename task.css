@@ -1,0 +1,46 @@
+@font-face{
+	src:url(Poppins-Bold.otf);
+	font-family: poppins;
+}
+
+body{
+	
+	background-color: #ff2a6b;
+	font-family: poppins;
+	position: fixed;
+	width: 100%;
+
+}
+
+.thanh{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.con {
+	display: block;
+	justify-content: flex-end;
+	color: white;
+	margin-left: 100px;
+	
+
+}
+.con a{
+	margin-right: 30px;
+	color: white;
+}
+
+.user {
+	display: flex;
+	color: white;
+	margin-right: 100px;
+ 
+}
+.user a{
+	
+	text-decoration: none;
+	color: white;
+}
+	
+
